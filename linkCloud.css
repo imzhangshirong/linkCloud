@@ -1,0 +1,21 @@
+/* Jarvis 标签云*/
+.link_cloud{
+	list-style: none;
+	padding: 0px;
+	position: absolute;
+	width: 100%;
+}
+.link_cloud .label_cloud{
+	text-align: center;
+	display: block;
+	float: left;
+	padding:3px;
+	text-decoration: none;
+	color: #005dab;
+	opacity: 0;
+	-webkit-transition:background-color 0.2s linear;-moz-transition:background-color 0.2s linear;transition:background-color 0.2s linear;
+}
+.label_cloud:hover{
+	color: #fff;
+	background-color: #1D7ECB;
+}
